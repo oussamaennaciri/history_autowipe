@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html><head><link rel="stylesheet" href="style.css"></head><body>
+  <div class="header">
+    <img src="icon48.png" class="logo" alt="Logo">
+    <h1>History Autowipe</h1>
+  </div>
+  <div class="toggle-row">
+    <label class="switch"><input type="checkbox" id="toggle-autowipe" checked><span class="slider"></span></label>
+    <span class="toggle-label">Autowipe</span>
+  </div>
+  <div class="row">
+    <input type="number" id="interval" min="1" placeholder="Interval">
+    <select id="unit"><option>Minutes</option><option>Hours</option><option>Weeks</option><option>Months</option></select>
+  </div>
+  <fieldset class="options">
+    <div class="options-grid">
+      <!-- left column -->
+      <label><input type="checkbox" id="chkHistory" checked> History</label>
+      <label><input type="checkbox" id="chkCookies" checked> Cookies</label>
+      <label><input type="checkbox" id="chkCache"   checked> Cache</label>
+      <!-- right column -->
+      <label><input type="checkbox" id="chkPasswords" checked> Passwords</label>
+      <label><input type="checkbox" id="chkMisc" checked> Miscellaneous</label>
+      <label><input type="checkbox" id="chkAll"       checked> All Data</label>
+    </div>
+  </fieldset>
+  <div class="row">
+    <button id="save">Save Settings</button>
+    <button id="clear">Clear Now</button>
+  </div>
+  <div class="status" id="status">Next: -- | Last: --</div>
+  <script src="popup.js"></script>
+</body></html>
