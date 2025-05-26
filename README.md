@@ -4,7 +4,7 @@
 
 A lightweight Chrome extension that puts your privacy on autopilot. Instead of rummaging through menus every time you want to clear cookies or history, you set it once—choosing exactly which data types to purge and how often—and it quietly does the rest.
 
-*Source: Chrome Web Store* ([extpose.com](https://extpose.com/ext/gbljafgbpbbaciooamjdcpihokdgehee?utm_source=chatgpt.com))
+*Source: Chrome Web Store* : https://chromewebstore.google.com/detail/history-autowipe/gbljafgbpbbaciooamjdcpihokdgehee
 
 ## Contents
 
